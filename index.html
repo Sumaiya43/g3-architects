@@ -5,25 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>G3 ArchiTects</title>
+
     <!-- import css  -->
     <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://kit.fontawesome.com/0eae61851e.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="top-background">
       <header>
-        <nav>
+
+        <!-- <nav>
           <div class="brand-name">
             <h2>G3 ArchiTects</h2>
           </div>
           <div class="menu">
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Contact Us</li>
-              <li>Login</li>
+              <li class="nav-toggler"><i class="fas fa-bars"></i></li>
+              <li class="nav-link"><a href="">Home</a></li>
+              <li class="nav-link"><a href="">About</a></li>
+              <li class="nav-link"><a href="">Contact Us</a></li>
+              <li class="nav-link"><a href="">Login</a></li>
             </ul>
           </div>
+        </nav> -->
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label class="logo">G3 Architects </label>
+          
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Login</a></li>
+          </ul>
         </nav>
+        
         <!-- nav ends here  -->
 
         <section class="explore-brand">
@@ -200,35 +219,32 @@
       </section>
     </main>
     <!-- Extra bonus section  -->
-    <section class="review-container">
-      <div class="review-header">
-        <h2>Our Clients Review</h2>
-      </div>
+    <section>
+      <div class="sponser-header">
+        <h2>Our Clients</h2>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but
+         <br> the majority have suffered alteration.
+        </p>
       <div class="clients">
-          <div class="client">
-            <div class="c-image">
-              <img src="images/client1.jpg" alt="">
-            </div>
-            <div class="review">
-              <p>They are very hardworking and amazing people, I am their regular client and very satisfied with their work.</p>
-            </div>
+        <div class="client">
+          <div class="image">
+            <img src="images/client1.jpg" alt="">
           </div>
-          <div class="client">
-            <div class="c-image">
-              <img src="images/client2.jpg" alt="">
-            </div>
-            <div class="review">
-              <p>Amazing team. they fullfilled all the requirements and made a very full functional responsive website using MERN!</p>
-            </div>
+          <p>I am very satisfied with their work</p>
+        </div>
+        <div class="client">
+          <div class="image">
+            <img src="images/client2.jpg" alt="">
           </div>
-          <div class="client">
-            <div class="c-image">
-              <img src="images/client3.jpg" alt="">
-            </div>
-            <div class="review">
-              <p>Amazing team. they fullfilled all the requirements and made a very full functional responsive website using MERN!</p>
-            </div>
+          <p>I am very satisfied with their work</p>
+        </div>
+        <div class="client">
+          <div class="image">
+            <img src="images/client3.jpg" alt="">
           </div>
+          <p>I am very satisfied with their work</p>
+        </div>
       </div>
     </section>
   <!-- footer starts from here  -->
